@@ -1,0 +1,135 @@
+/* color animation */
+.togglers { width: 500px; height: 200px; position: relative; }
+#button { padding: .5em 1em; text-decoration: none; }
+#effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+#effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+
+
+/* sortable */
+
+.column {
+  width: 100%;
+  float: left;
+  padding-bottom: 100px;
+}
+.portlet {
+  margin: 0 1em 1em 0;
+  padding: 0.3em;
+}
+.portlet-header {
+  padding: 0.2em 0.3em;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+.portlet-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -8px;
+}
+.portlet-content {
+  padding: 0.4em;
+}
+.portlet-placeholder {
+  border: 1px dotted black;
+  margin: 0 1em 1em 0;
+  height: 50px;
+}
+
+
+/* toggle */
+.toggler {
+  width: 500px;
+  height: 200px;
+}
+#button {
+  padding: .5em 1em;
+  text-decoration: none;
+}
+#effect {
+  position: relative;
+  width: 240px;
+  height: 170px;
+  padding: 0.4em;
+}
+#effect h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+}
+
+
+/* progressbar */
+#progress{
+  margin-top: 50px;
+  background-color: #0f0f0f;
+  color: red;
+}
+
+
+/* accordion */
+
+#accordion div{
+  background-color: rgb(231, 134, 7);
+  color: rgb(100, 90, 90);
+  color: white;
+}
+
+
+
+/* selectable */
+
+#feedback { font-size: 1.4em; }
+  #selectable .ui-selecting { background: #FECA40; }
+  #selectable .ui-selected { background: #F39814; color: white; }
+  #selectable { list-style-type: none; margin: 10px; padding: 10px; width: 60%; }
+  #selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
+ 
+
+/* resizable */
+
+
+#resizable {
+   width: 150px; 
+   height: 150px; 
+   padding: 0.5em; 
+   background-color: pink;
+  }
+#resizable h3 {
+   text-align: center;
+    margin: 0; 
+  }
+
+
+
+/* draggable */
+
+#draggable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  background-color: rgb(255, 174, 0);
+  color: black;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+}
+
+/* dragg and dropp */
+
+#dragg {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px 10px 10px 0;
+  background-color: aqua;
+}
+#dropp {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px;
+}
